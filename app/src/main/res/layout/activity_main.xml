@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_700"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menú Principal"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fleeting Image"
+        android:onClick="verFleeting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Field of Green"
+        android:onClick="verField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/field"
+        tools:layout_editor_absoluteY="250dp"/>
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox "
+        android:onClick="verBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/check"
+        tools:layout_editor_absoluteY="250dp"/>
+
+    <Button
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verRadio"
+        android:text="Radio Button "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/radio"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verLinear"
+        android:text="Linear Layout "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/linear"
+        tools:ignore="MissingConstraints"
+        />
+    <Button
+        android:id="@+id/boxmodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verBoxModel"
+        android:text="Box Model "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/boxmodel"
+        tools:ignore="MissingConstraints"/>
+    <Button
+        android:id="@+id/relativedemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verRelative"
+        android:text="Relative Layaout "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/relativedemo"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/overlap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verOverlap"
+        android:text="Overlap "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/overlap"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/tabularasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verTabula"
+        android:text="Tabula Rasa "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tabularasa"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/scrollwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verScrollWork"
+        android:text="Scrollwork "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/scrollwork"
+        tools:ignore="MissingConstraints"/>
+
+</LinearLayout>
